@@ -1,0 +1,34 @@
+﻿{
+  "Metadata": {
+    "Id": "09f2a137-adaf-451c-b32e-074254e96fc7",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "CalloutLinkedin",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Engagement Suggestions",
+        "tableView": true,
+        "key": "engagementSuggestions",
+        "type": "textarea",
+        "input": true
+      },
+      {
+        "label": "Close",
+        "showValidations": false,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "input": true,
+        "saveOnEnter": false
+      }
+    ]
+  }
+}
